@@ -1,0 +1,86 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <style>
+    .button{
+        background-color: #5c61a5;
+        border:solid;
+        color:black;
+        padding: 8px 16px;
+        text-align:center;
+        text-decoration:none;
+        display:inline-block;
+        font-size:16px;
+        margin:16px 12px;
+        cursor:pointer;
+    }</style>
+</head>
+
+<body>
+  <h1>Refresh point-Opinion poll</h1>
+  <form>
+    <h3>1. Are you a vegetarian or non-vegetarian.</h3>
+      <input type="radio" id="Vegetarian" name="fav_language" value="Vegetarian">
+      <label for="Vegetarian">Vegetarian</label><br>
+      <input type="radio" id="Non-vegetarian" name="fav_language" value="Non-vegetarian">
+      <label for="Non-vegetarian">Non-vegetarian</label>
+  </form>
+  <!-- end of 1st question -->
+
+  <h3>2. What is your profession?</h3>
+
+  <form>
+    <label for="cars">Choose profession:</label>
+    <select id="cars" name="cars">
+      <option value="Teaching">Teaching</option>
+      <option value="Research">Research</option>
+      <option value="Medicine">Medicine</option>
+      <option value="Business">Business</option>
+    </select>
+  </form>
+  <!-- end of 2nd question-->
+
+  <h3>3. Choose your menu!</h3>
+  <form>
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+      <option value="South Indian">
+      <option value="North Indian">
+      <option value="Mexican">
+      <option value="Continental">
+      <option value="Chinese">
+      <option value="Italian">
+      </option>
+    </datalist>
+  </form>
+  <!--end of 3rd question-->
+
+
+  <h3>4. Name and address.</h3>
+  <textarea name="message" rows="5" cols="30"></textarea>
+  <br><br>
+  </form>
+  <!--end of 4th question-->
+
+
+  <h3>5. Mode of payment.</h3>
+  <input type="radio" id="Cash" name="" value="Cash">
+  <label for="Cash">Cash</label><br>
+  <input type="radio" id="Cheque" name="fav_language" value="Cheque">
+  <label for="sCheque">Cheque</label><br>
+  <input type="radio" id="Credit card" name="fav_language" value="Credit card">
+  <label for="Credit card">Credit card</label><br>
+  </form>
+  <!--end of 5th question-->
+
+  <h3>6. Type your comments on our food here.</h3>
+  <textarea name="message" rows="5" cols="30"></textarea>
+  <br><br>
+  </form>
+
+ 
+  <a href="submit.html" class="button">submit</a>
+</body>
+
+</html>

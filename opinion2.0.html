@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <style>
+    .button{
+        background-color: #230054;
+        border:solid;
+        color:black;
+        padding: 8px 16px;
+        text-align:center;
+        text-decoration:none;
+        display:inline-block;
+        font-size:16px;
+        margin:16px 12px;
+        cursor:pointer;
+    }</style>
+</head>
+
+<body>
+  <h3>1. Name of the organization?</h3>
+  <form>
+    <label for="fname"></label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <!--end 1st question-->
+
+    <h3>2. Select your continent?</h3>
+    <form>
+      <input list="browsers" name="browser">
+      <datalist id="browsers">
+        <option value="South America">
+        <option value="Asia">
+        <option value="Europe">
+        <option value="Africa">
+        <option value="Australia">
+        <option value="Antartica">
+        <option value="North America">
+        </option>
+      </datalist>
+    </form>
+    <!--end of 2nd question-->
+
+    <h3>3. Name of the country?</h3>
+    <form>
+      <label for="fname"></label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+
+      <h3>4. Main scope</h3>
+
+      <form>
+        <input type="checkbox">
+        <label for=""> Hardware sales</label><br>
+        <input type="checkbox">
+        <label for=""> Software sales</label><br>
+        <input type="checkbox">
+        <label for=""> Peripheral sales</label><br>
+        <input type="checkbox">
+        <label for=""> Software development</label><br><br>
+      </form>
+      <!--end of 4th question-->
+      <h3>5. Type your opinion about our Product.</h3>
+      <form>
+        <textarea name="message" rows="5" cols="30"></textarea>
+        <br><br>
+      </form>
+      <!--end of 5th question-->
+
+      <form>
+        <h3>6. In your opinion, what is the status of our product?.</h3>
+        <input type="radio" id="Excellent" name="status" value="Excellent">
+          <label for="Excellent">Excellent</label><br>
+        <input type="radio" id="Very good" name="status" value="Very good">
+          <label for="Very good">Very good</label><br>
+        <input type="radio" id="Good" name="status" value="Good">
+          <label for="Very Good">Good</label><br>
+        <input type="radio" id="Fair" name="status" value="Fair">
+          <label for="Fair">Fair</label><br>
+        <input type="radio" id="Not bad" name="status" value="Not bad">
+          <label for="Not bad">Not bad</label><br>
+        <input type="radio" id="Very bad" name="status" value="Very bad">
+          <label for="Very bad">Very bad</label><br>
+
+      </form>
+      <form><input type="submit"></form>
+
+</body>
+
+</html>
